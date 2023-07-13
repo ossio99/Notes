@@ -37,3 +37,8 @@ name='_csrf' value=csrf
 **Doubts**  
 el middleware estara interceptando solo los formularios que se envien que tengan un token o tambien las peticiones ajax??
 el csrfToken se manda a traves del body y no de cookies???
+
+yo creo que el flujo es asi:
+- se envia el token como una variable desde el res
+- en el front se almacena en un cookie y al mismo tiempo se envia en el form dada la estructura necesaria
+- el middleware de cookie parser lo leera o mas bien el middleware de csrf
