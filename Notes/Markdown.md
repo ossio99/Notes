@@ -10,6 +10,17 @@ Resultado:
 var a = {};
 ```
 
+**codigos**  
+- sh
+- docker
+- js
+- javascript
+- markdown
+- md
+- html
+- jsx
+- bash
+
 You can also create code block identando las lineas por al menos 4 espacios o un tab
 ```markdown
 This is a normal paragraph:
