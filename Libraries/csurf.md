@@ -33,3 +33,7 @@ En el front tenemos que usar un input con esta estructura para que reciba y envi
 ```jsx
 name='_csrf' value=csrf
 ```
+
+**Doubts**  
+el middleware estara interceptando solo los formularios que se envien que tengan un token o tambien las peticiones ajax??
+el csrfToken se manda a traves del body y no de cookies???
