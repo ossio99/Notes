@@ -286,9 +286,6 @@ Ahora, puedes crear una copia local de la nueva rama que se creó en el reposito
 - preguntar si hay cambios en el remoto para proceder a hacer un pull, creo que esto lo hace git fetch
 - ver los cambios entre commits, creo que esto lo hace git diff
 
-# Hacer:
-* make sure that the new branch is on the remote
-
 # checar curso mouredev
 - git diff
 - git fetch

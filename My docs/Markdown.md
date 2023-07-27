@@ -12,6 +12,7 @@ var a = {};
 
 **codigos**  
 - sh
+- shell
 - docker
 - js
 - javascript
