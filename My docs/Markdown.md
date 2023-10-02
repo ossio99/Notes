@@ -91,3 +91,26 @@ nota: si no dejas una linea entre un texto y el divisor, el divisor lo convierte
 ## Citas  
 ## Comentarios  
 ## Escape de caracteres
+## Checkbox
+```md
+- [ ] hola
+```
+Resultado:
+- [ ] hola
+
+
+## Internal links
+[HTML]
+[Listas]
+
+## Images that are not in this ubication
+## Tags
+al parecer aqui doesn't work like in obsidian
+#hola
+## Highlight
+al parecer aqui doesn't work like in obsidian
+==hola==
+
+## Doble internal link
+[[]]
+
