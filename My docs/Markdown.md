@@ -21,6 +21,7 @@ var a = {};
 - html
 - jsx
 - bash
+- csharp
 
 You can also create code block identando las lineas por al menos 4 espacios o un tab
 ```markdown
