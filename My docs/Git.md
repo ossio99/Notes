@@ -51,7 +51,7 @@ git add .
 git reset <nombre del archivo> = quitar archivos del staging area
 git reset . = quitar todo del stagin area
 git commit -m ""
-git log
+git log -> shows all the commits history of the repo, q for exit
 git log --oneline
 git reset --hard <hash del commit> = restaura, se pierden los commits posteriores
 git rm <nombre del archivo> = indicarle a git que deje de hacer el seguimiento de uno o varios archivos cuando ya se hizo commit, este comando borrara el archivo y dejara el stagin area lista para solo hacer commit
@@ -72,7 +72,7 @@ REMOTE
 ```git
 git remote -v
 git branch -M master
-git remote add origin  <url>
+git remote add origin <url>
 git push -u origin main (-u para automatizar el remoto y la rama y la proxima vez solo hacer git push)
 git pull = traerme los cambios del remoto
 *
