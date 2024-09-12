@@ -29,6 +29,20 @@ git commit -m 'Eliminados archivos no deseados'
 git push
 ```
 
+### How to undo a commit already uploaded to the remote repository
+to do this first we have to undo the commit, with the next command we can undo the commit and keeping the changes in staging area
+```
+git reset --soft <commit-hash>
+```
+or undo the commit without keeping the changes
+```
+git reset --hard <commit-hash>
+```
+then, we can push  the changes to the remote repository
+```
+git push origin <nombre-rama> --force
+```
+
 # Curso pildoras informaticas
 START REPO
 ```git
